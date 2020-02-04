@@ -170,3 +170,9 @@ body {
 .skills {
   height: 100vh;
 }
+
+/* Project Section Begins Here */
+
+.projects {
+  text-align: center;
+}
