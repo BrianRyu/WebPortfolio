@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,18 +10,28 @@
     <title>Brian Ryu </></title>
   </head>
   <body>
+      <div>
+          <ul class="navbar">
+           <li><a class="active" href="#landing" >Home</a></li>
+           <li><a href="#about-me">About Me</a></li>
+           <li><a href="#skills">Skills</a></li>
+           <li><a href="#projects">Projects</a></li>
+           <li><a href="#contact">Contact Me</a></li>
+           <li class="right"><img height="45px" src="brlogo.png"></img>
+         </ul>
+      </div>
     <noscript>Hey there! Welcome to my page. Feel free to reach out to connect.</noscript>
     <div id="root">
         
     <div class="brian-r hover">
         <img src="https://pbs.twimg.com/profile_images/938562273185898496/lyD09bkP.jpg" alt="brian-sample" class="background"/>
         <figcaption>
-            <div class="landing">
+            <div id="landing" class="landing">
                 <img src="https://pbs.twimg.com/profile_images/938562273185898496/lyD09bkP.jpg" alt="brian-sample" class="profile"/>
                 <h2>Brian Ryu<span>Design & Engineer</span></h2>
                 <br>
-                <button class="contact-me">Contact Me</button>
-                <button class="resume">View Resume</button>
+                <a class="contact-me" href="#contact">Contact Me</a>
+                <a class="resume" href="https://drive.google.com/file/d/1iza4VfSd1twLFIHKcOU1r3F8OFGobRYP/view" target="_blank">View Resume</a>
                 <div class="icons">
                     <a href="#"><i class="ion-social-codepen-outline"></i></a>
                     <a href="#"> <i class="ion-social-github-outline"></i></a>
@@ -34,7 +42,7 @@
             <div class="profile-details"><br>
 <!--About Me Section  -->
             <section>
-                <div class="about-me">
+                <div id="about-me" class="about-me">
                     <h1>About Me</h1>
                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                     <div>
@@ -48,7 +56,7 @@
             </section>
       <!--        -->
             <section>
-                <div class="skills">
+                <div id="skills" class="skills">
                     <h1>Technical Skills</h1>
                     <p>This is where you will implement animated icons of your technical skills</p>
                     <ul>
@@ -76,7 +84,7 @@
                 </div>
             </section>
             <section>
-                <div class="projects">
+                <div id="projects" class="projects">
                     <!-- <div class="w3-content" style="max-width:1200px">
                         <img class="mySlides" src="https://wallpaperplay.com/walls/full/6/0/6/293266.jpg" style="width:100%;display:none">
                         <img class="mySlides" src="https://images.unsplash.com/photo-1478700485868-972b69dc3fc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" style="width:100%">
@@ -123,10 +131,10 @@
                     </div>
                 </div>
             </section>
-            <section class="contact">
-                <div>
+            <section class="contact-cont">
+                <div id="contact" class="contact">
                     <h1>Contact Me</h1>
-                    <form id="contact-form" action="https://hooks.zapier.com/hooks/catch/5863483/otj4d0q/" type="POST">
+                    <form class="contact-form" action="https://hooks.zapier.com/hooks/catch/5863483/otj4d0q/" type="POST">
                         <input type="text" name="full-name" placeholder="What's your name?"/>
                         <input type="email" name="email-address" placeholder="Your email address?"/>
                         <input type="text" name="message" placeholder="How can I help you?"/>
